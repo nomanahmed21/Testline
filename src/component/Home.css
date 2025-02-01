@@ -1,0 +1,96 @@
+/* Home Page Container */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #0f172a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* TestLine Title */
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #f39c12;
+  }
+  
+  /* Animated Text */
+  .animated-text {
+    font-size: 2rem;
+    height: 40px;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* "Get Started" in a Different Color */
+  .get-started {
+    color: #00ffcc;
+  }
+  
+  /* Blinking Cursor */
+  .cursor {
+    animation: blink 0.8s infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  /* Start Button */
+  .start-btn {
+    background: linear-gradient(90deg, #ff416c, #ff4b2b);
+    color: white;
+    font-size: 1.5rem;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .start-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255, 75, 43, 0.8);
+  }
+  
+  /* ✅ Responsive Design */
+  @media (max-width: 768px) {
+    .title {
+      font-size: 2.5rem;
+    }
+    .animated-text {
+      font-size: 1.8rem;
+    }
+    .start-btn {
+      font-size: 1.3rem;
+      padding: 10px 25px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 2rem;
+    }
+    .animated-text {
+      font-size: 1.5rem;
+    }
+    .start-btn {
+      font-size: 1.2rem;
+      padding: 8px 20px;
+    }
+  }
+  
