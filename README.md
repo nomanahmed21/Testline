@@ -11,6 +11,6 @@ How To Run:
 
 Sreenshot: provided in the Repository
 
-Vedio: https://youtu.be/WfwX6Aepe8Q
+Video: https://youtu.be/WfwX6Aepe8Q
 
 cmd - "nodemon backend/server.js" to start the backend server. It was required because the provided api was blocked by cors 
